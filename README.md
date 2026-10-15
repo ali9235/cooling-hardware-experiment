@@ -1,6 +1,18 @@
-# Compact Thermal Hardware Study
+<p align="center"><img src="media/voltra-logo.jpg" alt="VOLTRA — official project logo" width="720"></p>
+
+# VOLTRA Thermal Lab
 
 ### Making the thermal assembly visible—not just the temperature claim.
+
+![VOLTRA Thermal Lab illustrated investigation workflow](media/overview.svg)
+
+## See the engineering approach
+
+[![Animated cooling-assembly inspection concept](media/walkthrough.gif)](media/walkthrough.mp4)
+
+[Watch or download the 12-second explainer](media/walkthrough.mp4). A silent, illustrative inspection sequence—not a thermal simulation, airflow measurement or working-device video. The thermal mechanism remains unconfirmed; no temperature or cooling result is invented.
+
+## The real prototype
 
 ![Actual fan, heatsink, and metal cooling assembly](images/prototype.jpg)
 
