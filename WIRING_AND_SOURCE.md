@@ -1,10 +1,10 @@
 # Hardware identification before build instructions
 
-The photo documents an independent assembly. The fan label states 12V DC; that does not establish the supply for the entire assembly.
+The owner confirms the new photograph belongs to this cooling project. It shows a fan/metal assembly, a controller board in a translucent enclosure, a separate motor-driven pump and tubing. The earlier close-up remains available. The fan label states 12V DC; that does not establish the supply for the entire assembly.
 
 Before publishing a reproducible circuit or assembly guide, identify the thermal element (if any), the function of the metal section/fittings, actual fan and element wiring, intended heat source/load, and any circulation system. Confirm which nearby parts belong to this build.
 
-If it uses a microcontroller, provide that original firmware and signal map. If it is hardware-only, say so: a credible electronics project does not need fabricated software. No measured cooling capacity, target temperature, or thermal-control algorithm is currently claimed.
+A controller board is visible in the new photograph; provide its exact identity, original firmware and signal map. Its presence does not prove feedback regulation. No measured cooling capacity, target temperature, pump flow or thermal-control algorithm is currently claimed.
 
 ## Assembly and power documentation sequence
 

@@ -1,6 +1,5 @@
-<p align="center"><img src="media/voltra-logo.jpg" alt="VOLTRA — official project logo" width="720"></p>
-
-# VOLTRA Thermal Lab
+<h1 align="center">VOLTRA</h1>
+<h2 align="center">Thermal Lab</h2>
 
 ### Making the thermal assembly visible—not just the temperature claim.
 
@@ -14,9 +13,11 @@
 
 ## The real prototype
 
-![Actual fan, heatsink, and metal cooling assembly](images/prototype.jpg)
+![Updated real cooling prototype with fan assembly, controller, pump and tubing](images/prototype-v2.jpg)
 
-Thermal engineering lives in the details of the physical build. This compact assembly brings a **DC fan, a finned heatsink, and a metal section with two visible fittings** into a real bench prototype. The photograph makes the construction inspectable; the next engineering step is to identify its thermal mechanism and measure its behavior under defined conditions.
+Thermal engineering lives in the details of the physical build. The updated photograph brings the wider experiment into view: a **12V-labelled DC fan on a metal assembly, a controller board inside a translucent enclosure, and a separate motor-driven pump with tubing**. It documents the physical integration; it does not establish the cooling mechanism, a complete circulation path, or thermal performance.
+
+[Earlier assembly photograph](images/prototype.jpg) · New photograph supplied by the owner; preserved without generative editing. The original image's existing caption is retained.
 
 [Components](#what-can-be-identified) · [Technology review](#technology-and-purpose-confirmation-required) · [Hardware checklist](WIRING_AND_SOURCE.md)
 
@@ -29,11 +30,14 @@ The assembly offers a concrete starting point for documenting mechanical contact
 | Visible component | Quantity | Evidence |
 | --- | --- | --- |
 | DC fan | 1 | Label reads 12V DC; this is not a measured operating voltage |
-| Finned heatsink | 1 visible assembly | Visible beneath the fan |
-| Metal section with fittings | 1 visible assembly; 2 fittings | Internal flow path and purpose unconfirmed |
+| Metal fan/thermal assembly | 1 | Wider enclosure view in the new image; fins and two fittings visible in the earlier image |
+| Arduino-format controller board | 1 partly visible | Exact board/MCU and firmware unconfirmed |
+| Motor-driven pump with tubing | 1 visible pump assembly | Model, rated voltage, flow and connection to the thermal block unverified |
+| Translucent enclosure and bundled wiring | 1 assembly | Exact signal/power connections not traceable from the photograph |
+| Small external blue circuit/module | 1 visible | Function and part number unconfirmed |
 | Power leads | Present | Actual supply and electrical connections unknown |
 
-The nearby plastic pump-like unit and TFT are background items until their relationship to the assembly is confirmed. No component identity is inferred merely from proximity.
+The owner assigns the new photograph to this cooling project. The visible pump and tubes are documented as part of the photographed experiment; a closed-loop circuit, active pumping, temperature sensing and controller behavior are not proven. The TFT in the earlier photograph is not automatically part of this assembly.
 
 ## Technology and purpose: confirmation required
 
@@ -43,8 +47,8 @@ The photograph alone cannot establish whether the system uses a thermoelectric e
 
 Document the exact stack and power connections first. Record ambient temperature, measurement locations, supply voltage/current, load, elapsed time, and steady-state temperature before comparing configurations. Include a photograph or video of the actual setup and raw measurements.
 
-No matching control firmware, wiring schematic, thermal log, or performance test was located. Assembly and powering instructions remain withheld until the technology and component ratings are identified.
+No matching control firmware, wiring schematic, thermal log, or performance test was located. A controller is visible, but no code is attributed to it without a matching sketch. Assembly and powering instructions remain withheld until the technology and component ratings are identified.
 
-The owner confirms that this photograph represents an independent project. See the [hardware and source checklist](WIRING_AND_SOURCE.md). This may be a hardware-only build: firmware should not be invented merely to add a code folder.
+The owner confirms that the photographs represent one independent cooling project. See the [hardware and source checklist](WIRING_AND_SOURCE.md). The controller's actual function must be established before implementing a driver or calling this a closed-loop thermal-control system.
 
 Project author: [ali9235](https://github.com/ali9235). Physical hardware study; component identification and measured thermal results remain pending.
