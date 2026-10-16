@@ -1,6 +1,8 @@
 <h1 align="center">VOLTRA</h1>
 <h2 align="center">Thermal Lab</h2>
 
+<p align="center"><a href="docs/ENGINEERING_GUIDE.md">Understand the build</a> · <a href="docs/DEMO_TEST_PLAN.md">Plan a real demo</a> · <a href="tests/hardware-observations.csv">Record observations</a></p>
+
 ### Making the thermal assembly visible—not just the temperature claim.
 
 ![VOLTRA Thermal Lab illustrated investigation workflow](media/overview.svg)
@@ -58,5 +60,11 @@ Document the exact stack and power connections first. Record ambient temperature
 No matching control firmware, wiring schematic, thermal log, or performance test was located. A controller is visible, but no code is attributed to it without a matching sketch. Assembly and powering instructions remain withheld until the technology and component ratings are identified.
 
 The owner confirms that the photographs represent one independent cooling project. See the [hardware and source checklist](WIRING_AND_SOURCE.md). The controller's actual function must be established before implementing a driver or calling this a closed-loop thermal-control system.
+
+## Understand, demonstrate, verify
+
+[Engineering walkthrough](docs/ENGINEERING_GUIDE.md) · [Real demonstration & test plan](docs/DEMO_TEST_PLAN.md) · [Measurement template](tests/hardware-observations.csv)
+
+The walkthrough explains the actual reference source and visible hardware. It includes troubleshooting questions and software-only learning exercises. The test plan specifies what a genuine recording and measurement should show; all hardware-observation rows remain **not_run** until a real test is performed.
 
 Project author: [ali9235](https://github.com/ali9235). Physical hardware study; component identification and measured thermal results remain pending.

@@ -1,0 +1,5 @@
+test_id,source_revision,condition,reference,observed,unit,acceptance_rule,status,evidence_file,notes
+T1,,,,,,Identify ratings and actual unpowered connections,not_run,,
+T2,,,,,C,Document instrument placement and ambient baseline,not_run,,
+T3,,,,,C,Choose test duration and criteria before supervised operation,not_run,,
+T4,,,,,,Assess only the identified pump and verified fluid route,not_run,,
