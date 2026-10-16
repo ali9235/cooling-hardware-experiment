@@ -17,7 +17,15 @@
 
 Thermal engineering lives in the details of the physical build. The updated photograph brings the wider experiment into view: a **12V-labelled DC fan on a metal assembly, a controller board inside a translucent enclosure, and a separate motor-driven pump with tubing**. It documents the physical integration; it does not establish the cooling mechanism, a complete circulation path, or thermal performance.
 
-[Earlier assembly photograph](images/prototype.jpg) · New photograph supplied by the owner; preserved without generative editing. The original image's existing caption is retained.
+[Earlier assembly photograph](images/prototype.jpg) · The latest owner-supplied photograph is preserved as provided, without generative editing.
+
+## What each part does
+
+[![Annotated real cooling prototype: nine numbered component labels and purpose notes](media/component-guide.png)](media/component-guide.png)
+
+[Open the full-size component guide](media/component-guide.png) · [Editable SVG version](media/component-guide.svg)
+
+The second image labels the visible fan, metal assembly, pump, tubing, wiring, enclosure, controller, rotary control and external PCB. Purpose notes describe typical component roles, not verified system operation. Unknown models and functions are marked explicitly; the leader lines are **not a wiring or fluid schematic**. The real photograph embedded in the guide is unchanged.
 
 [Components](#what-can-be-identified) · [Technology review](#technology-and-purpose-confirmation-required) · [Hardware checklist](WIRING_AND_SOURCE.md)
 
